@@ -13,7 +13,6 @@ Read more [here](https://developer.apple.com/xcode/swiftui)
 
 ```
 https://hn.algolia.com/api
-
 ```
 
 ## Screenshots
