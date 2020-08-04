@@ -7,9 +7,14 @@ SwiftUI is an innovative, exceptionally simple way to build user interfaces acro
 Read more [here](https://developer.apple.com/xcode/swiftui) 
 <br>
 <br>
-<br>
 [<img src = "GitImages/swiftui.png">](https://developer.apple.com/xcode/swiftui)
 
+## API 
+
+```
+https://hn.algolia.com/api
+
+```
 
 ## Screenshots
 <img src= "GitImages/iPhone11 - Screenshot1.png" width="414" height="896" >  <img src= "GitImages/iPhone11- Screenshot2.png" width="414" height="896" > 
