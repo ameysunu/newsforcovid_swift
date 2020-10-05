@@ -1,17 +1,16 @@
-//
 //  ContentView.swift
 //  NewsForCovid
 //
 //  Created by Amey Viney on 8/4/20.
 //  Copyright © 2020 Amey Sunu. All rights reserved.
-//
+
 
 import SwiftUI
 
 struct ContentView: View {
-    
+
     @ObservedObject var networkManager = NetworkManager()
-    
+
     var body: some View {
         NavigationView{
             List(networkManager.posts){ post in
@@ -21,8 +20,8 @@ struct ContentView: View {
                         Text(post.title)
                     }
                 }
-                
-                
+
+
             }
             .navigationBarTitle("News")
         }
@@ -37,5 +36,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView().previewDevice(PreviewDevice.init(rawValue: "iPhone 11"))
     }
 }
-
-
