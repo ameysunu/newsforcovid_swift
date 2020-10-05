@@ -1,4 +1,3 @@
-//
 //  SceneDelegate.swift
 //  NewsForCovid
 //
@@ -61,4 +60,3 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
 }
-
